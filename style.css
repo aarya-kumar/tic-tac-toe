@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+Kawi:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #EFCA08;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 5vmin;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    font-size: 8vmin;
+    background-color: #FDFCDC;
+    color: #00A6A6;
+    font-weight: 700;
+}
+
+.reset {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #F08700;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+.new {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #F08700;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+.msg {
+    font-size: 5vmin; 
+    font-weight: 600;
+    color: #067e2a;
+}
+
+.msg-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide {
+    display: none;
+}
